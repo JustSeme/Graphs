@@ -1,0 +1,20 @@
+{
+  "name": "graphs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "twoDimensionalArray.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "launch": "tsc && node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustSeme/Graphs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustSeme/Graphs/issues"
+  },
+  "homepage": "https://github.com/JustSeme/Graphs#readme"
+}
