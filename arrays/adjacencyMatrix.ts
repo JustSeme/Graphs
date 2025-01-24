@@ -5,7 +5,7 @@
 Матрица смежности
 */
 
-class AdjacencyMatrixGraph {
+export class AdjacencyMatrixGraph {
     constructor(
         private vertices: string[],
         private matrix: number[][]
@@ -48,21 +48,21 @@ const adjacencyMatrixGraph: number[][] = [
     [0, 0, 0, 0], // D
 ]
 
-const matrixGraphInstance = new AdjacencyMatrixGraph(['A', 'B', 'C', 'D'], adjacencyMatrixGraph)
+const graphInstance = new AdjacencyMatrixGraph(['A', 'B', 'C', 'D'], adjacencyMatrixGraph)
 
 console.log('Start');
-matrixGraphInstance.displayGraph()
+graphInstance.displayGraph()
 
 const newMatrixVertex = 'E'
 console.log(`Add vertex ${newMatrixVertex}`);
-matrixGraphInstance.addVertex(newMatrixVertex)
+graphInstance.addVertex(newMatrixVertex)
 
 const newMatrixVertex2 = 'F'
 console.log(`Add vertex ${newMatrixVertex2}`);
-matrixGraphInstance.addVertex(newMatrixVertex2)
+graphInstance.addVertex(newMatrixVertex2)
 
 const newMatrixEdge = 'F'
 console.log(`Add edge ${newMatrixEdge} for ${newMatrixVertex}`);
-matrixGraphInstance.addEdge(newMatrixVertex, newMatrixEdge)
+graphInstance.addEdge(newMatrixVertex, newMatrixEdge)
 
-matrixGraphInstance.displayGraph()
+graphInstance.displayGraph()

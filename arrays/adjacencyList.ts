@@ -6,7 +6,7 @@
 */
 interface AdjacencyListGraphInterface { [key: string]: string[] }
 
-class AdjacencyListGraph {
+export class AdjacencyListGraph {
 
     constructor(private graph: AdjacencyListGraphInterface) {}
 
